@@ -1,0 +1,15 @@
+<h2><%= @dogs.size %> Results</h2>
+<% @dogs.each do |dog| %>
+  <div class="dog">
+    <img class="image" src="<%= dog[:url] %>" alt="dog">
+    <% dog[:breeds].each do |breed| %>
+        <p class="breed"><%= breed[:name] %></p>
+        <p class="life-span"><%= breed[:life_span] %></p>
+        <p class="temperament"><%= breed[:temperament] %></p>
+      </div>
+      <% end %>
+<% end %>
+
+<!-- The END coming after the </div> is confusing, but basically
+      this would be fixed by using a Dog class and using that to display
+      the information instead of using a hash like we did above! -->
