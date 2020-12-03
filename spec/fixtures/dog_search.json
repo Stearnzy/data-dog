@@ -1,0 +1,107 @@
+[
+  {
+      "breeds": [
+          {
+              "weight": {
+                  "imperial": "25 - 45",
+                  "metric": "11 - 20"
+              },
+              "height": {
+                  "imperial": "17 - 20",
+                  "metric": "43 - 51"
+              },
+              "id": 114,
+              "name": "German Pinscher",
+              "bred_for": "Watchdog, Hunting vermin on the farm.",
+              "breed_group": "Working",
+              "life_span": "12 - 14 years",
+              "temperament": "Spirited, Lively, Intelligent, Loving, Even Tempered, Familial"
+          }
+      ],
+      "id": "B1u4zgqE7",
+      "url": "https://cdn2.thedogapi.com/images/B1u4zgqE7_1280.jpg",
+      "width": 740,
+      "height": 480
+  },
+  {
+      "breeds": [
+          {
+              "weight": {
+                  "imperial": "50 - 60",
+                  "metric": "23 - 27"
+              },
+              "height": {
+                  "imperial": "25 - 27",
+                  "metric": "64 - 69"
+              },
+              "id": 2,
+              "name": "Afghan Hound",
+              "country_code": "AG",
+              "bred_for": "Coursing and hunting",
+              "breed_group": "Hound",
+              "life_span": "10 - 13 years",
+              "temperament": "Aloof, Clownish, Dignified, Independent, Happy",
+              "origin": "Afghanistan, Iran, Pakistan"
+          }
+      ],
+      "id": "zqTumVT7e",
+      "url": "https://cdn2.thedogapi.com/images/zqTumVT7e.jpg",
+      "width": 2457,
+      "height": 2325
+  },
+  {
+      "breeds": [],
+      "id": "_KGSi_Bxj",
+      "url": "https://cdn2.thedogapi.com/images/_KGSi_Bxj.jpg",
+      "width": 1280,
+      "height": 960
+  },
+  {
+      "breeds": [
+          {
+              "weight": {
+                  "imperial": "45 - 55",
+                  "metric": "20 - 25"
+              },
+              "height": {
+                  "imperial": "20 - 22",
+                  "metric": "51 - 56"
+              },
+              "id": 32,
+              "name": "Bearded Collie",
+              "bred_for": "Sheep herding",
+              "breed_group": "Herding",
+              "life_span": "12 - 14 years",
+              "temperament": "Self-confidence, Hardy, Lively, Alert, Intelligent, Active"
+          }
+      ],
+      "id": "KhXmgBorE",
+      "url": "https://cdn2.thedogapi.com/images/KhXmgBorE.jpg",
+      "width": 1080,
+      "height": 1080
+  },
+  {
+      "breeds": [
+          {
+              "weight": {
+                  "imperial": "20 - 30",
+                  "metric": "9 - 14"
+              },
+              "height": {
+                  "imperial": "14 - 15",
+                  "metric": "36 - 38"
+              },
+              "id": 86,
+              "name": "Cocker Spaniel",
+              "bred_for": "Bird flushing, retrieving",
+              "breed_group": "Sporting",
+              "life_span": "12 - 15 years",
+              "temperament": "Trainable, Friendly, Affectionate, Playful, Quiet, Faithful"
+          }
+      ],
+      "id": "dL8IihY5U",
+      "url": "https://cdn2.thedogapi.com/images/dL8IihY5U.jpg",
+      "width": 1080,
+      "height": 1080
+  }
+]
