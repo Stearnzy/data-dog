@@ -13,6 +13,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap'
 gem 'jquery-rails'
+gem 'faraday'
+gem 'figaro'
 
 group :development, :test do
   gem 'pry'
@@ -20,6 +22,10 @@ group :development, :test do
   gem 'capybara'
   gem 'launchy'
   gem 'simplecov'
+end
+
+group :test do
+  gem 'webmock'
 end
 
 group :development do
