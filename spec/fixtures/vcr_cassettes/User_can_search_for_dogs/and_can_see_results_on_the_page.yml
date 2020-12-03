@@ -1,0 +1,84 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.thedogapi.com/v1/images/search?limit=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - "<DONT_EXPOSE_DATA>"
+      User-Agent:
+      - Faraday v1.1.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Expose-Headers:
+      - Pagination-Count, Pagination-Page, Pagination-Limit
+      Cache-Control:
+      - post-check=0, pre-check=0
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 03 Dec 2020 17:56:30 GMT
+      Expires:
+      - Tue, 03 Jul 2001 06:00:00 GMT
+      Last-Modified:
+      - Thu Dec 03 2020 17:56:30 GMT+0000 (Coordinated Universal Time)
+      Pagination-Count:
+      - '910'
+      Pagination-Limit:
+      - '5'
+      Pagination-Page:
+      - '0'
+      Server:
+      - Apache/2.4.43 (Amazon)
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      Vary:
+      - Origin,Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Time:
+      - 65ms
+      X-Xss-Protection:
+      - 1; mode=block
+      Content-Length:
+      - '693'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"breeds":[{"weight":{"imperial":"25 - 40","metric":"11 - 18"},"height":{"imperial":"14
+        - 18","metric":"36 - 46"},"id":56,"name":"Boykin Spaniel","bred_for":"Turkey
+        retrieving","breed_group":"Sporting","life_span":"10 - 14 years","temperament":"Friendly,
+        Energetic, Companionable, Intelligent, Eager, Trainable"}],"id":"ryHJZlcNX","url":"https://cdn2.thedogapi.com/images/ryHJZlcNX_1280.jpg","width":577,"height":634},{"breeds":[{"weight":{"imperial":"38
+        - 50","metric":"17 - 23"},"height":{"imperial":"23 - 26","metric":"58 - 66"},"id":8,"name":"Alaskan
+        Husky","bred_for":"Sled pulling","breed_group":"Mixed","life_span":"10 - 13
+        years","temperament":"Friendly, Energetic, Loyal, Gentle, Confident"}],"id":"Nk8cSr_aj","url":"https://cdn2.thedogapi.com/images/Nk8cSr_aj.jpg","width":1350,"height":869},{"breeds":[{"weight":{"imperial":"45
+        - 55","metric":"20 - 25"},"height":{"imperial":"20 - 22","metric":"51 - 56"},"id":32,"name":"Bearded
+        Collie","bred_for":"Sheep herding","breed_group":"Herding","life_span":"12
+        - 14 years","temperament":"Self-confidence, Hardy, Lively, Alert, Intelligent,
+        Active"}],"id":"9NJbNWAW9","url":"https://cdn2.thedogapi.com/images/9NJbNWAW9.jpg","width":1080,"height":1080},{"breeds":[{"weight":{"imperial":"30
+        - 45","metric":"14 - 20"},"height":{"imperial":"18 - 22","metric":"46 - 56"},"id":50,"name":"Border
+        Collie","bred_for":"Sheep herder","breed_group":"Herding","life_span":"12
+        - 16 years","temperament":"Tenacious, Keen, Energetic, Responsive, Alert,
+        Intelligent"}],"id":"ViIxw1j4w","url":"https://cdn2.thedogapi.com/images/ViIxw1j4w.jpg","width":1080,"height":1008},{"breeds":[{"weight":{"imperial":"50
+        - 70","metric":"23 - 32"},"height":{"imperial":"21 - 22","metric":"53 - 56"},"id":61,"name":"Bull
+        Terrier","bred_for":"Bull baiting, Fighting","breed_group":"Terrier","life_span":"10
+        - 12 years","temperament":"Trainable, Protective, Sweet-Tempered, Keen, Active"}],"id":"q6mwhzuB3","url":"https://cdn2.thedogapi.com/images/q6mwhzuB3.jpg","width":1080,"height":1080}]'
+  recorded_at: Thu, 03 Dec 2020 17:56:30 GMT
+recorded_with: VCR 6.0.0
